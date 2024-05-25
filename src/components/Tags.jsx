@@ -6,7 +6,7 @@ function Tags({ tags }) {
   return (
     <div>
       {tags.map((tag) => (
-        <Badge bg={tag.color} className="me-1">
+        <Badge size="lg" pill bg={tag.color} className="me-3 fs-6 boton">
           {tag.text}
         </Badge>
       ))}

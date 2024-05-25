@@ -6,28 +6,32 @@ import Footer from "./components/Footer";
 function App() {
   const perritos = [
     {
-      imagen: "",
-      name: "Perrito 1",
-      desciption: "Description 1",
-      tags: [{ text: "texto 1", color: "success" }],
+      imagen: "https://picsum.photos/id/237/200",
+      name: "Black",
+      description:
+        "Adorable perrito,lleno de energia y muy amoroso. ¡Dale a Black la oportunidad de un amoroso hogar!",
+      tags: [{ text: "Labrador", color: "success" }],
     },
     {
-      imagen: "",
-      name: "Perrito 2",
-      desciption: "Description 2",
-      tags: [{ text: "texto 1", color: "info" }],
+      imagen: "https://placedog.net/200/200?id=191",
+      name: "Punta",
+      description:
+        "Pequeño regalón en busca de familia, revoltoso y muy amigable. ¡Haz de Punta parte de tu familia y te llevaras un nuevo amigo!",
+      tags: [{ text: "Chihuahua", color: "info" }],
     },
     {
-      imagen: "",
-      name: "Perrito 3",
-      desciption: "Description 3",
-      tags: [{ text: "texto 1", color: "primary" }],
+      imagen: "https://placedog.net/200/200?id=163",
+      name: "Pintas",
+      description:
+        "Juguetón, amigable y se lleva bien con los niños y otros animales. ¡Haz de Pintas parte de tu familia hoy mismo!",
+      tags: [{ text: "Dalmata", color: "primary" }],
     },
     {
-      imagen: "",
-      name: "Perrito 4",
-      desciption: "Description 4",
-      tags: [{ text: "texto 1", color: "danger" }],
+      imagen: "https://placedog.net/200/200?id=28",
+      name: "Snow",
+      description:
+        "Es juguetón, amigable y muy obediente. ¡Haz de este pequeñin un amigo y parte de su familia! ",
+      tags: [{ text: "Samoyedo", color: "danger" }],
     },
   ];
 

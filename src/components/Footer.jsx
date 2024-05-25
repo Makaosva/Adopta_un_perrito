@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer({ title }) {
   return (
-    <div>
-      <h6>{title}</h6>
+    <div className="footer">
+      <h5>{title}</h5>
     </div>
   );
 }

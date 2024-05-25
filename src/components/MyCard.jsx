@@ -7,6 +7,8 @@ function MyCard({ imagen, name, description, tags }) {
       <div className="card-body">
         <h4 className="card-title">{name}</h4>
         <p className="card-text">{description}</p>
+      </div>
+      <div>
         <Tags tags={tags} />
       </div>
     </div>
