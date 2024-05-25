@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
+import Footer from "./components/Footer";
 
 function App() {
   const perritos = [
@@ -33,15 +34,16 @@ function App() {
   return (
     <>
       <Header title="Adopta un perrito" />
-      <div className="container mt-3">
+      <div className="container mt-4">
         <div className="row">
           {perritos.map((perritos, index) => (
-            <div className="col-md-4" key={index}>
+            <div className="col-md-3" key={index}>
               <MyCard {...perritos} />
             </div>
           ))}
         </div>
       </div>
+      <Footer title="Explora nuestra galería de adopción de perros para enconrar a tu compañero perfecto. Tenemos una variedad de perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su escencia única. Adopta a tu perro y brindale una segunda oportunidad. Encuentra a tu compañero peludo para siempre" />
     </>
   );
 }
